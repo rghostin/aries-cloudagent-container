@@ -1,6 +1,12 @@
 [![img](https://img.shields.io/badge/Lifecycle-Stable-97ca00)](https://github.com/bcgov/repomountie/blob/master/doc/lifecycle-badges.md)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
+
+# Custom local build [ forked ]
+```
+python3 make_image.py 0.7.3 python --name 'rghostin/aries-cloudagent' --build-arg git_egg_ref="git+https://github.com/rghostin/aries-cloudagent-python.git@main#egg=" --no-cache
+```
+
 # Docker images for Hyperledger Aries Cloud Agent
 
 The image repository is located [on Docker Hub](https://hub.docker.com/r/bcgovimages/aries-cloudagent/).
