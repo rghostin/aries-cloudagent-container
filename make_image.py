@@ -167,7 +167,7 @@ VERSIONS = {
         {
             "version": "0.7.3",
             "args": {
-                "base_image": "bcgovimages/von-image:py36-1.16-1",
+                "base_image": "rghostin/von-image:py36-1.16-0",
                 "acapy_reqs": "[askar,bbs]"
             },
         },
